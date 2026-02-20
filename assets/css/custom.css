@@ -83,27 +83,10 @@ body::before {
   color: #ffe7d3;
 }
 
-.slog-home-footer {
-  margin-top: 1.2rem;
-  padding: 0.9rem 1rem;
-  border-radius: 10px;
-  border: 1px solid var(--line);
-  background: rgba(10, 16, 28, 0.72);
-}
-
-.slog-home-footer p {
-  margin: 0;
+.slog-subtitle {
+  margin: 0.15rem 0 0.1rem;
   color: #cbd8f1;
-  font-size: 0.97rem;
-}
-
-.slog-posts h2 {
-  margin-top: 1.8rem;
-  color: var(--accent-teal);
-  font-family: "Orbitron", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 1rem;
+  font-size: 0.98rem;
 }
 
 .post-grid {
@@ -133,16 +116,17 @@ body::before {
   background: linear-gradient(to right, var(--accent-copper), var(--accent-teal), var(--accent-violet));
 }
 
-.post-date {
-  font-size: 0.82rem;
-  color: #caa98b;
-  margin: 0;
-  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-}
-
 .post-card h3 {
   margin: 0.24rem 0 0.45rem;
   font-size: 1.21rem;
+}
+
+.post-date-inline {
+  font-size: 0.82rem;
+  color: #caa98b;
+  margin-left: 0.35rem;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 500;
 }
 
 .post-card h3 a {

@@ -1,0 +1,8 @@
+title: "∂S/∂t >> 0: The Heretic's Slog"
+description: "A blog by Scibok — a Vulcan who chose passion for science."
+url: "https://sci-bok.github.io"
+baseurl: "/heretics-slog"
+markdown: kramdown
+theme: minima
+permalink: /:year/:month/:day/:title/
+show_excerpts: true

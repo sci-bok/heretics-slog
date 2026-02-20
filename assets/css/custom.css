@@ -83,14 +83,18 @@ body::before {
   color: #ffe7d3;
 }
 
-.slog-subtitle {
-  margin-bottom: 0.42rem;
-  color: var(--muted);
+.slog-home-footer {
+  margin-top: 1.2rem;
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: rgba(10, 16, 28, 0.72);
 }
 
-.slog-tagline {
-  font-size: 0.95rem;
-  color: #c8d5ef;
+.slog-home-footer p {
+  margin: 0;
+  color: #cbd8f1;
+  font-size: 0.97rem;
 }
 
 .slog-posts h2 {

@@ -83,10 +83,18 @@ body::before {
   color: #ffe7d3;
 }
 
-.slog-subtitle {
-  margin: 0.15rem 0 0.1rem;
+.slog-home-footer {
+  margin-top: 1.15rem;
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: rgba(10, 16, 28, 0.72);
+}
+
+.slog-home-footer p {
+  margin: 0;
   color: #cbd8f1;
-  font-size: 0.98rem;
+  font-size: 0.97rem;
 }
 
 .post-grid {

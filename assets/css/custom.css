@@ -1,0 +1,76 @@
+:root {
+  --slog-accent: #7c5cff;
+  --slog-accent-soft: #ece8ff;
+  --slog-text-muted: #666;
+}
+
+.wrapper {
+  max-width: 860px;
+}
+
+.slog-hero {
+  margin: 1.2rem 0 2rem;
+  padding: 1.1rem 1.1rem 0.3rem;
+  border-left: 4px solid var(--slog-accent);
+  background: linear-gradient(to right, var(--slog-accent-soft), rgba(236, 232, 255, 0));
+  border-radius: 8px;
+}
+
+.slog-hero h1 {
+  margin-bottom: 0.3rem;
+  line-height: 1.2;
+}
+
+.slog-subtitle {
+  margin-bottom: 0.4rem;
+  color: var(--slog-text-muted);
+}
+
+.slog-tagline {
+  font-size: 0.95rem;
+}
+
+.slog-posts h2 {
+  margin-top: 2rem;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 0.7rem;
+}
+
+.post-card {
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  padding: 1rem 1rem 0.8rem;
+  background: #fff;
+}
+
+.post-card h3 {
+  margin: 0.2rem 0 0.4rem;
+}
+
+.post-card p {
+  margin-bottom: 0.6rem;
+}
+
+.post-date {
+  font-size: 0.86rem;
+  color: var(--slog-text-muted);
+  margin: 0;
+}
+
+.read-more {
+  font-weight: 600;
+}
+
+.post-content h1 {
+  margin-top: 0.3rem;
+}
+
+.post-content {
+  font-size: 1.08rem;
+  line-height: 1.72;
+}

@@ -6,3 +6,5 @@ markdown: kramdown
 theme: minima
 permalink: /:year/:month/:day/:title/
 show_excerpts: true
+header_pages:
+  - about.md

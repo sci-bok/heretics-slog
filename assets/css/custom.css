@@ -9,10 +9,10 @@
 }
 
 .slog-hero {
-  margin: 1.2rem 0 2rem;
-  padding: 1.1rem 1.1rem 0.3rem;
+  margin: 1.2rem 0 1.6rem;
+  padding: 1rem 1rem 0.25rem;
   border-left: 4px solid var(--slog-accent);
-  background: linear-gradient(to right, var(--slog-accent-soft), rgba(236, 232, 255, 0));
+  background: linear-gradient(to right, rgba(236, 232, 255, 0.7), rgba(236, 232, 255, 0));
   border-radius: 8px;
 }
 
@@ -44,12 +44,14 @@
 .post-card {
   border: 1px solid #ececec;
   border-radius: 10px;
-  padding: 1rem 1rem 0.8rem;
+  padding: 1.05rem 1rem 0.85rem;
   background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
 }
 
 .post-card h3 {
-  margin: 0.2rem 0 0.4rem;
+  margin: 0.2rem 0 0.45rem;
+  font-size: 1.2rem;
 }
 
 .post-card p {
@@ -73,4 +75,14 @@
 .post-content {
   font-size: 1.08rem;
   line-height: 1.72;
+}
+
+.minimalist-footer {
+  padding: 0.7rem 0;
+}
+
+.minimalist-footer p {
+  margin: 0;
+  color: var(--slog-text-muted);
+  font-size: 0.92rem;
 }

@@ -16,3 +16,9 @@ Live URL:
 ```
 
 The publish script refuses to publish files from `/drafts/` and enforces date-first filenames.
+
+After deploy, verify live output:
+
+```bash
+./scripts/verify-live.sh
+```

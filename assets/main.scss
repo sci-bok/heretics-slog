@@ -217,6 +217,15 @@ a:hover {
   color: var(--accent-2);
 }
 
+.scibok-portrait {
+  display: block;
+  width: min(520px, 100%);
+  margin: 0 auto 1rem;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
 pre,
 code {
   background: rgba(13, 20, 34, 0.9);

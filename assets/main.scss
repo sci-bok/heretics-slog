@@ -89,6 +89,24 @@ body::before {
   box-shadow: var(--shadow);
 }
 
+.slog-hero--with-portrait {
+  display: grid;
+  grid-template-columns: 1fr min(190px, 34%);
+  gap: 0.95rem;
+  align-items: center;
+}
+
+.slog-hero-copy {
+  min-width: 0;
+}
+
+.slog-hero-portrait {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 24px rgba(3, 9, 18, 0.36);
+}
+
 .slog-hero h1 {
   margin-bottom: 0.2rem;
   line-height: 1.2;
@@ -268,6 +286,15 @@ code {
 
   .slog-hero h1 {
     font-size: 1.2rem;
+  }
+
+  .slog-hero--with-portrait {
+    grid-template-columns: 1fr;
+  }
+
+  .slog-hero-portrait {
+    max-width: 240px;
+    justify-self: center;
   }
 
   .post-card h3 {
